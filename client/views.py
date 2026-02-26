@@ -78,7 +78,7 @@ def client_freelancer_register(request):
             category = request.POST['category']
             industry = request.POST['industry']
             business_scale = request.POST['business_scale']
-            user_type = request.POST['user_type']
+            user_type = request.POST.get('user_type')
             no_of_users = request.POST['no_of_users']
             deployment = request.POST['deployment']
             os = request.POST['os']
