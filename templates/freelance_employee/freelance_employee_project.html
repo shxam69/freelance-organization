@@ -1,0 +1,65 @@
+{% extends 'freelance_employee/freelance_employee_base.html' %}
+{% block content %}
+{% for m in messages %}
+   <script>
+      alert('{{ m }}')
+   </script>
+{% endfor %}
+<style>
+    h2, h3, th, td {
+        color: white;
+    }
+    .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+        color: white;
+	    border-top: none !important;
+    }
+</style>
+<br><br><br>
+      <!-- Start Table -->
+<center><h2>Client Request for Freelance Employees</h2></center><br><br>
+<div class="container">
+    {% if new %}
+    <table class="table table-bordered table-hover" style="margin-left: -100px; font-size:12px;">
+    <thead style="background-color: #002B5B;" class="bg-dark text-white">
+    <tr>
+        <th scope="col">Client Name</th>
+        <th scope="col">Client Email</th>
+        <th scope="col">Phone Number</th>
+        <th scope="col">Software Category</th>
+        <th scope="col">Industry Type</th>
+        <th scope="col">Business Scale</th>
+        <th scope="col">User Type</th>
+        <th scope="col">No of Users</th>
+        <th scope="col">Deployment</th>
+        <th scope="col">OS</th>
+        <th scope="col">Mobile App</th>
+        <th scope="col">Accept</th>
+        <th scope="col">Decline</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for n in new %}
+    <tr style="background-color: #607EAA;">
+        <td>{{ n.name }}</td>
+        <td>{{ n.mail }}</td>
+        <td>{{ n.mobile }}</td>
+        <td>{{ n.category }}</td>
+        <td>{{ n.industry }}</td>
+        <td>{{ n.business_scale }}</td>
+        <td>{{ n.user_type }}</td>
+        <td>{{ n.no_of_users }}</td>
+        <td>{{ n.deployment }}</td>
+        <td>{{ n.os }}</td>
+        <td>{{ n.mobile_app }}</td>
+        <td><a href="/start_project/{{ n.id }}/"><input type="button" value="Work" /></a></td>
+        <td><a href="/decline_project/{{ n.id }}/"><input type="button" value="Decline" /></a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+    {% else %}
+	<h3>No More Client Details to view</h3>
+    {% endif %}
+<!-- End Table -->
+</div>
+{% endblock %}

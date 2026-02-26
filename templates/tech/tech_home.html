@@ -1,0 +1,12 @@
+{% extends 'tech/tech_base.html' %}
+{% block content %}
+{% for m in messages %}
+	<script>
+		alert('{{ m }}')
+	</script>
+{% endfor %}
+
+<div class="container" style="width: 100px; height: 100px;">
+	<h1 style="display: flex; align-items: center; justify-content: center; color: white; margin-top: 350%">Welcome to Technical Team Panel</h1>
+</div>
+{% endblock %}

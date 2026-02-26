@@ -1,0 +1,7 @@
+venv/
+vir/
+virenv/
+virtual/
+__pycache__/
+db.sqlite3
+*.pyc

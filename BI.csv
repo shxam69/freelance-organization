@@ -1,0 +1,101 @@
+category,industry,Business_scale,user_type,no_of_users,deployment,OS,mobile_apps,pricing
+Data Management,Utilities,Large,Business,Single,Cloud,Linux,Y,Freemium
+Database/ERP,Food,Large,Business,Single,On-Premise,Mac,Y,Freemium
+Data Analysis,Manufacturing,Large,Business,Single,On-Premise,Linux,N,Open Source
+Data Analysis,IT,Medium,Business,Mulitple,On-Premise,Mac,Y,Open Source
+Benchmarking,Food,Medium,Analyst,Mulitple,Cloud,Windows,N,Enterprise
+Data Analysis,Academia,Large,Analyst,Mulitple,Hybrid,Windows,Y,Freemium
+Complete BI,IT,Medium,Business,Single,On-Premise,Linux,Y,Freemium
+DWH,Marketing,Medium,Analyst,Single,Cloud,Linux,Y,Open Source
+Database/ERP,Manufacturing,Medium,Business,Mulitple,Cloud,Windows,Y,Open Source
+Data Management,Telecommunications,Medium,Analyst,Mulitple,Hybrid,Linux,Y,Enterprise
+Business Analytics,Manufacturing,Large,Business,Mulitple,Hybrid,Linux,N,Freemium
+DWH,Fashion,Large,Analyst,Single,Hybrid,Mac,N,Open Source
+Database/ERP,Retail,Medium,Business,Single,Hybrid,Mac,N,Open Source
+Performance Metrics,Utilities,Medium,Analyst,Single,Hybrid,Mac,N,Open Source
+Web Analytics,IT,Medium,Analyst,Mulitple,Cloud,Windows,N,Enterprise
+Dashboarding,Manufacturing,Small,Analyst,Single,Hybrid,Mac,Y,Freemium
+Ad-hoc reporting,Retail,Medium,Business,Mulitple,On-Premise,Windows,N,Enterprise
+Database/ERP,Utilities,Medium,Business,Single,On-Premise,Windows,N,Enterprise
+Business Analytics,Consultancy,Large,Analyst,Mulitple,On-Premise,Mac,Y,Open Source
+Embedded BI,Retail,Large,Analyst,Mulitple,Hybrid,Mac,Y,Freemium
+Monitoring,Consultancy,Small,Analyst,Mulitple,Hybrid,Windows,N,Open Source
+Benchmarking,Retail,Small,Business,Single,On-Premise,Linux,N,Open Source
+ETL/ELT/OLAP,Telecommunications,Small,Business,Single,Cloud,Windows,N,Enterprise
+Business Analytics,Academia,Small,Business,Single,On-Premise,Windows,Y,Freemium
+Performance Metrics,Academia,Large,Business,Mulitple,Cloud,Mac,N,Enterprise
+KPI & Scorecard,IT,Large,Business,Mulitple,Cloud,Linux,Y,Open Source
+Benchmarking,Fashion,Large,Analyst,Single,On-Premise,Linux,N,Open Source
+Data Management,Fashion,Medium,Business,Single,On-Premise,Windows,Y,Enterprise
+Data Analysis,Utilities,Small,Analyst,Mulitple,Hybrid,Windows,Y,Freemium
+Predictive Analytics,Food,Medium,Analyst,Single,On-Premise,Windows,N,Freemium
+KPI & Scorecard,Consultancy,Small,Business,Mulitple,On-Premise,Mac,Y,Enterprise
+Data Management,Pharma,Small,Business,Mulitple,Cloud,Mac,N,Enterprise
+Embedded BI,Utilities,Large,Business,Mulitple,Cloud,Mac,N,Open Source
+Behavior analytics,Academia,Medium,Analyst,Mulitple,On-Premise,Windows,N,Enterprise
+ETL/ELT/OLAP,Marketing,Large,Analyst,Single,On-Premise,Mac,N,Open Source
+Web Analytics,Retail,Small,Analyst,Single,Hybrid,Windows,Y,Enterprise
+Business Analytics,Telecommunications,Large,Analyst,Single,On-Premise,Windows,Y,Enterprise
+Business Analytics,Marketing,Large,Business,Mulitple,Cloud,Mac,N,Enterprise
+Benchmarking,Consultancy,Large,Business,Mulitple,On-Premise,Mac,Y,Enterprise
+Dashboarding,Academia,Large,Business,Mulitple,Hybrid,Linux,Y,Enterprise
+Complete BI,Manufacturing,Large,Analyst,Single,Cloud,Mac,N,Freemium
+ETL/ELT/OLAP,Manufacturing,Medium,Business,Mulitple,Cloud,Windows,Y,Freemium
+ETL/ELT/OLAP,Fashion,Small,Business,Mulitple,On-Premise,Linux,Y,Freemium
+ETL/ELT/OLAP,Fashion,Small,Analyst,Single,Cloud,Linux,Y,Open Source
+Database/ERP,Marketing,Small,Business,Single,On-Premise,Mac,N,Freemium
+Ad-hoc reporting,IT,Large,Business,Mulitple,Hybrid,Windows,Y,Enterprise
+Complete BI,Utilities,Medium,Analyst,Single,On-Premise,Mac,N,Open Source
+Ad-hoc reporting,Fashion,Small,Business,Mulitple,Hybrid,Mac,Y,Open Source
+Monitoring,Food,Large,Business,Single,On-Premise,Windows,N,Freemium
+Predictive Analytics,Telecommunications,Large,Analyst,Mulitple,Hybrid,Mac,N,Freemium
+Benchmarking,Retail,Small,Business,Mulitple,Cloud,Linux,Y,Enterprise
+Web Analytics,Manufacturing,Small,Analyst,Mulitple,Hybrid,Mac,N,Open Source
+KPI & Scorecard,Fashion,Medium,Analyst,Mulitple,Cloud,Windows,N,Open Source
+Performance Metrics,Retail,Large,Analyst,Single,Hybrid,Linux,Y,Freemium
+Monitoring,Academia,Medium,Analyst,Mulitple,On-Premise,Linux,N,Enterprise
+Database/ERP,Manufacturing,Medium,Business,Single,On-Premise,Mac,Y,Freemium
+Complete BI,Food,Large,Business,Mulitple,Hybrid,Mac,N,Enterprise
+ETL/ELT/OLAP,Consultancy,Medium,Business,Mulitple,Cloud,Linux,Y,Open Source
+Dashboarding,Consultancy,Large,Analyst,Single,Hybrid,Mac,N,Open Source
+Embedded BI,Consultancy,Medium,Analyst,Single,On-Premise,Windows,Y,Enterprise
+Data Discovery,Consultancy,Large,Analyst,Mulitple,On-Premise,Mac,N,Enterprise
+Data Analysis,Manufacturing,Small,Business,Single,On-Premise,Linux,N,Freemium
+Database/ERP,Retail,Large,Business,Single,On-Premise,Linux,N,Enterprise
+Business Analytics,Marketing,Medium,Analyst,Mulitple,On-Premise,Windows,N,Enterprise
+Data Management,Fashion,Large,Business,Single,Hybrid,Mac,Y,Open Source
+Predictive Analytics,Telecommunications,Medium,Business,Mulitple,Cloud,Mac,Y,Enterprise
+Data Management,Utilities,Small,Analyst,Single,Hybrid,Windows,N,Freemium
+Ad-hoc reporting,Food,Small,Analyst,Single,Hybrid,Mac,N,Freemium
+KPI & Scorecard,Utilities,Small,Business,Mulitple,Cloud,Windows,N,Freemium
+Complete BI,Utilities,Large,Analyst,Mulitple,On-Premise,Windows,Y,Freemium
+Dashboarding,Marketing,Medium,Analyst,Single,On-Premise,Windows,Y,Open Source
+Database/ERP,IT,Medium,Business,Single,Hybrid,Windows,Y,Enterprise
+Ad-hoc reporting,Academia,Large,Business,Single,On-Premise,Mac,N,Open Source
+Data Discovery,IT,Small,Analyst,Mulitple,Cloud,Mac,Y,Enterprise
+Data Analysis,Marketing,Small,Analyst,Single,Cloud,Windows,N,Freemium
+Data Analysis,Fashion,Medium,Business,Mulitple,On-Premise,Windows,N,Open Source
+Embedded BI,Telecommunications,Large,Analyst,Single,Cloud,Windows,N,Open Source
+Data Management,Pharma,Large,Analyst,Mulitple,Cloud,Linux,Y,Enterprise
+Complete BI,Consultancy,Medium,Business,Single,Hybrid,Mac,Y,Enterprise
+Business Analytics,Manufacturing,Large,Business,Single,On-Premise,Mac,Y,Enterprise
+Data Analysis,Retail,Large,Business,Single,On-Premise,Mac,N,Enterprise
+ETL/ELT/OLAP,Academia,Small,Business,Single,Hybrid,Linux,N,Open Source
+Behavior analytics,Food,Small,Analyst,Single,On-Premise,Windows,N,Enterprise
+Dashboarding,Food,Small,Analyst,Single,Cloud,Linux,Y,Open Source
+Data Discovery,Academia,Small,Analyst,Single,On-Premise,Mac,N,Enterprise
+Web Analytics,Fashion,Medium,Business,Single,Cloud,Mac,N,Freemium
+Ad-hoc reporting,IT,Large,Business,Mulitple,Cloud,Windows,N,Enterprise
+DWH,Academia,Medium,Analyst,Single,Cloud,Mac,Y,Freemium
+Behavior analytics,Pharma,Medium,Business,Single,Hybrid,Linux,N,Freemium
+Embedded BI,Telecommunications,Small,Analyst,Single,On-Premise,Windows,N,Freemium
+Predictive Analytics,Manufacturing,Medium,Analyst,Single,On-Premise,Mac,N,Freemium
+Database/ERP,Manufacturing,Medium,Analyst,Single,Hybrid,Linux,N,Open Source
+Data Analysis,Marketing,Large,Analyst,Mulitple,On-Premise,Linux,Y,Freemium
+Web Analytics,Marketing,Medium,Analyst,Mulitple,Hybrid,Windows,N,Enterprise
+Data Analysis,Marketing,Large,Business,Single,Cloud,Windows,Y,Enterprise
+Predictive Analytics,Retail,Large,Business,Mulitple,Cloud,Mac,N,Freemium
+Monitoring,Pharma,Large,Business,Mulitple,Cloud,Mac,Y,Open Source
+Behavior analytics,IT,Medium,Analyst,Single,Hybrid,Mac,N,Open Source
+Ad-hoc reporting,Academia,Medium,Analyst,Mulitple,Hybrid,Linux,Y,Enterprise
+Ad-hoc reporting,Utilities,Small,Analyst,Single,Cloud,Windows,Y,Freemium

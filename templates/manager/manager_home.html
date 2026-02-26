@@ -1,0 +1,12 @@
+{% extends 'manager/manager_base.html' %}
+{% block content %}
+{% for m in messages %}
+	<script>
+		alert('{{ m }}')
+	</script>
+{% endfor %}
+
+<div class="container" style="width: 100px; height: 100px;">
+	<h1 style="display: flex; align-items: center; justify-content: center; color: #22E37C; margin-top: 100%">Welcome to Manager (Admin) Panel</h1>
+</div>
+{% endblock %}

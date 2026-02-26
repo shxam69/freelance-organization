@@ -1,0 +1,162 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+{% extends 'client/client_base.html' %}
+{% block content %}
+{% load static %}
+<html lang="en">
+<head>
+<title>Auditions Registration Form Widget Flat Responsive Widget Template :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Auditions Registration Form Widget Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!-- //custom-theme -->
+<link href="{% static 'forms/css/style.css' %}" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="{% static 'forms/js/jquery-2.1.4.min.js' }"></script>
+<!-- //js -->
+<!-- font-awesome-icons -->
+<!-- //font-awesome-icons -->
+<link href="//fonts.googleapis.com/css?family=Anton&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+</head>
+<body style="background-image: url('/static/1.jpg')">
+<!-- banner -->
+	<div class="center-container">
+	<div class="banner-dott">
+		<div class="main">
+			<h1 class="w3layouts_head">Client Form - Freelancer</h1>
+				<div class="w3layouts_main_grid">
+					<form action="/client_freelancer_register/" method="POST" class="w3_form_post">
+						{% csrf_token %}
+						{% for i in st %}
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Clients Name</label>
+								<input type="text" name="name" value="{{ i.name }}" readonly required="">
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Clients Email </label>
+								<input type="text" name="email" value="{{ i.mail }}" readonly required="">
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Phone Number </label>
+								<input type="text" name="mobile" value="{{ i.phone }}" readonly required="">
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Software Category</label>
+								<input type="text" name="category" placeholder="Software Category" required="">
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Industry Type</label>
+								<input type="text" name="industry" placeholder="Industry Type" required="">
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Business Scale </label>
+								<select name="business_scale" style="width: 275px;">
+									<option value="none" selected="" disabled="">Choose...</option>
+									<option>Small</option>
+									<option>Medium</option>
+									<option>Large</option>
+								</select>
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>User Type </label>
+								<select name="user_type" style="width: 275px;">
+									<option value="none" selected="" disabled="">Choose...</option>
+									<option>Business</option>
+									<option>Analyst</option>
+								</select>
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>No of Users </label>
+								<select name="no_of_users" style="width: 275px;">
+									<option value="none" selected="" disabled="">Choose...</option>
+									<option>Single</option>
+									<option>Multiple</option>
+								</select>
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Deployment</label>
+								<select name="deployment" style="width: 275px;">
+									<option value="none" selected="" disabled="">Choose...</option>
+									<option>Cloud</option>
+									<option>On-Premise</option>
+									<option>Hybrid</option>
+								</select>
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>OS</label>
+								<select name="os" style="width: 275px;">
+									<option value="none" selected="" disabled="">Choose...</option>
+									<option>Linux</option>
+									<option>Windows</option>
+									<option>Mac</option>
+								</select>
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Mobile App</label>
+								<select name="mobile_app" style="width: 275px;">
+									<option value="none" selected="" disabled="">Choose...</option>
+									<option>Y</option>
+									<option>N</option>
+								</select>
+							</span>
+						</div>
+					<div class="w3_main_grid">
+						<div class="w3_main_grid_right">
+							<input type="submit" value="Submit">
+						</div>
+					</div>
+						{% endfor %}
+				</form>
+			</div>
+		<!-- Calendar -->
+			<link rel="stylesheet" href="{% static 'forms/css/jquery-ui.css' %}" />
+				<script src="{% static 'forms/js/jquery-ui.js' }"></script>
+					<script>
+						$(function() {
+							$( "#datepicker" ).datepicker();
+						});
+					</script>
+		<!-- //Calendar -->
+<!--			<div class="w3layouts_copy_right">-->
+<!--				<div class="container">-->
+<!--					<p>© 2017 Auditions Registration Form. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a></p>-->
+<!--				</div>-->
+<!--			</div>-->
+		</div>
+	</div>
+	</div>
+<!-- //footer -->
+</body>
+{% endblock %}
+</html>

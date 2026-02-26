@@ -1,0 +1,12 @@
+{% extends 'freelance_employee/freelance_employee_base.html' %}
+{% block content %}
+{% for m in messages %}
+	<script>
+		alert('{{ m }}')
+	</script>
+{% endfor %}
+
+<div class="container" style="margin-top: 150px;">
+	<h1 style="display: flex; align-items: center; justify-content: center; color: #22E37C;">Welcome to Freelance Employee Panel</h1>
+</div>
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends 'tech/tech_base.html' %}
+{% block content %}
+{% for m in messages %}
+   <script>
+      alert('{{ m }}')
+   </script>
+{% endfor %}
+<style>
+    h2, h3, th, td {
+        color: white;
+    }
+</style>
+<br><br><br>
+      <!-- Start Table -->
+<center><h2>View Freelance Employee</h2></center><br><br>
+{% if new %}
+    <table class="table table-bordered table-hover" style="margin-left:0px;">
+    <thead style="background-color: #002B5B;" class="bg-dark text-white">
+    <tr>
+        <th scope="col">Employee Name</th>
+        <th scope="col">Employee Id</th>
+        <th scope="col">Mail</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Age</th>
+        <th scope="col">Education</th>
+        <th scope="col">Job Title</th>
+        <th scope="col">Salary</th>
+        <th scope="col">Location</th>
+        <th scope="col">Experience</th>
+<!--        <th scope="col">Allow</th>-->
+<!--        <th scope="col">Decline & Email</th>-->
+    </tr>
+    </thead>
+    <tbody>
+    {% for n in new %}
+    <tr style="background-color: #607EAA;">
+        <td>{{ n.name }}</td>
+        <td>{{ n.emp_id }}</td>
+        <td>{{ n.mail }}</td>
+        <td>{{ n.gender }}</td>
+        <td>{{ n.age }}</td>
+        <td>{{ n.education }}</td>
+        <td>{{ n.job_title }}</td>
+        <td>{{ n.salary }}</td>
+        <td>{{ n.location }}</td>
+        <td>{{ n.experience }}</td>
+<!--        <td><a href="/approved_freelance_employee/{{ n.id }}/"><input type="button" value="Approve Employee" /></a></td>-->
+<!--        <td><a href="/delete_employee/{{ n.id }}/"><input type="button" value="Decline Employee" /></a></td>-->
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+    {% else %}
+	<h3>No Employee Approved by Manager</h3>
+    {% endif %}
+<!-- End Table -->
+{% endblock %}

@@ -1,0 +1,176 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+<title>Craft a Corporate Category Flat Bootstrap Responsive Web Template | Home :: W3layouts</title>
+
+<!-- Meta tag Keywords -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Craft web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--// Meta tag Keywords -->
+
+<!-- css files -->
+<link rel="stylesheet" href="{% static 'modules/css/bootstrap.css' %}"> <!-- Bootstrap-Core-CSS -->
+<link rel="stylesheet" href="{% static 'modules/css/style.css' %}" type="text/css" media="all" /> <!-- Style-CSS -->
+<link rel="stylesheet" href="{% static 'modules/css/font-awesome.css' %}"> <!-- Font-Awesome-Icons-CSS -->
+<link rel='stylesheet' type='text/css' href="{% static 'modules/css/jquery.easy-gallery.css' %}" /> <!-- For-gallery-CSS -->
+<!-- //css files -->
+
+
+<!-- online-fonts -->
+<link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700&amp;subset=gujarati,latin-ext" rel="stylesheet">
+<!-- //online-fonts -->
+</head>
+<body style="background-image: url('/static/modules/images/bg4.jpg')">
+{% for m in messages %}
+	<script>
+		alert('{{ m }}')
+	</script>
+   {% endfor %}
+<div class="Main-agile">
+<div class="header-bottom">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+					<div class="logo">
+						<h1><a class="navbar-brand" href="#"><span>f</span>Org</a></h1>
+					</div>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<nav class="cl-effect-1" id="cl-effect-1">
+						<ul class="nav navbar-nav">
+							<li><a href="/freelance_employee_home/" class="scroll">Home</a></li>
+							<li><a href="/freelance_form/" class="hvr-bounce-to-bottom scroll">Employee Register</a></li>
+<!--							<li><a href="#" class="hvr-bounce-to-bottom scroll">Blogs</a></li>-->
+<!--							<li><a href="#" class="hvr-bounce-to-bottom scroll">Portfolio</a></li>-->
+							<li><a href="/project/" class="hvr-bounce-to-bottom scroll">Project</a></li>
+							<li><a href="/work_process/" class="hvr-bounce-to-bottom scroll">Work Process</a></li>
+<!--							<li><a href="#" class="hvr-bounce-to-bottom scroll">Mail Us</a></li>-->
+							<li><a href="/logout_freelance_employee/"><button class="btn btn-danger">Logout</button></a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+		</div>
+	</div>
+<!-- //header -->
+<!-- Slider -->
+		<div class="slider">
+			<div class="callbacks_container">
+				<ul class="rslides" id="slider">
+<!--					<li>-->
+<!--						<div class="slider-img">-->
+<!--							<img src="{% static 'modules/images/bg2.jpg' %}" class="img-responsive" alt="education">-->
+<!--						</div>-->
+<!--						<div class="slider-info">-->
+<!--							<h3>Global Business Guide</h3>-->
+<!--							<h5><a href="#" class="view rew3" data-toggle="modal" data-target="#myModal5">Read More</a></h5>-->
+<!--						</div>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						<div class="slider-img">-->
+<!--							<img src="{% static 'modules/images/bg3.jpg' %}" class="img-responsive" alt="education">-->
+<!--						</div>-->
+<!--						<div class="slider-info">-->
+							{% block content %}
+							{% endblock %}
+<!--						</div>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						<div class="slider-img">-->
+<!--							<img src="{% static 'modules/images/bg1.jpg' %}" class="img-responsive" alt="education">-->
+<!--						</div>-->
+<!--						<div class="slider-info">-->
+<!--							<h3>Global Business Guide</h3>-->
+<!--							<h5><a href="#" class="view rew3" data-toggle="modal" data-target="#myModal5">Read More</a></h5>-->
+<!--						</div>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						<div class="slider-img">-->
+<!--							<img src="{% static 'modules/images/bg4.jpg' %}" class="img-responsive" alt="education">-->
+<!--						</div>-->
+<!--						<div class="slider-info">-->
+<!--							<h3>Global Business Guide</h3>-->
+<!--							<h5><a href="#" class="view rew3" data-toggle="modal" data-target="#myModal5">Read More</a></h5>-->
+<!--						</div>-->
+<!--					</li>-->
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+		<!-- For-Gallery-js -->
+			<!-- script for portfolio -->
+			<script type='text/javascript' src="{% static 'modules/js/jquery.easy-gallery.js' %}" ></script>
+			<script type='text/javascript'>
+			  //init Gallery
+			  $('.portfolio').easyGallery();
+			</script>
+			<script src="{% static 'modules/js/easyResponsiveTabs.js' %}" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});
+			</script>
+			<!-- //script for portfolio -->
+		<!-- //For-Gallery-js -->
+
+		<!-- start-smoth-scrolling -->
+				<script type="text/javascript" src="{% static 'modules/js/move-top.js' %}"></script>
+				<script type="text/javascript" src="{% static 'modules/js/easing.js' %}"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+				</script>
+		<!-- start-smoth-scrolling -->
+		<!-- smooth scrolling-bottom-to-top -->
+				<script type="text/javascript">
+					$(document).ready(function() {
+					/*
+						var defaults = {
+						containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear'
+						};
+					*/
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					});
+				</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<!-- //smooth scrolling-bottom-to-top -->
+<!-- js -->
+	<script type="text/javascript" src="{% static 'modules/js/jquery-2.1.4.min.js' %}"></script>
+<!-- //js -->
+
+<!-- //js-scripts -->
+</body>
+</html>
